@@ -13,7 +13,6 @@ app.set('views', './views');
 app.get("/", function (req, res) {
     res.render("index", { listedUsers: data.users });
 });
-// app.use('/', express.static(path.join(__dirname, "/")));
 app.use(express.static('views'))
 
 

@@ -1,0 +1,16 @@
+.container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.eachUser {
+    border: 1px solid black;
+    flex: 0 0 20%;
+    margin: 1rem;
+    text-align: center;
+    display: inline-block;
+}
+
+.name {
+    color: #4B84CF;
+}
