@@ -1,3 +1,9 @@
+body {
+    margin: auto;
+    text-align: center;
+    margin: 0 3%;
+}
+
 .container {
     display: flex;
     flex-wrap: wrap;
@@ -13,4 +19,9 @@
 
 .name {
     color: #4B84CF;
+    font-weight: bold;
+}
+
+.red {
+    color: red;
 }

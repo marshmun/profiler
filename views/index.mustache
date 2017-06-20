@@ -16,7 +16,8 @@
         <div class="eachUser">
             <img src={{avatar}}>
             <p class="name">{{name}}</p>
-            <p class="job">{{job}} {{#job}} {{company}} {{/job}} {{^job}} Available for hire! {{/job}}</p>
+            <p class="job">{{job}} {{#job}} {{company}} {{/job}} {{^job}}
+                <h4 class="red">Available for hire!</h4> {{/job}}</p>
         </div>
         {{/listedUsers}}
     </div>
