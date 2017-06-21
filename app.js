@@ -15,6 +15,12 @@ app.get("/", function (req, res) {
 });
 app.use(express.static('views'))
 
+app.get("/:id", function (req, res) {
+    res.render("indvProfile", { listedUsers: data.users[req.params.id] });
+});
+
+app.use(express.static('views'))
+
 
 app.listen(4000, function () {
     console.log('Successfuly started express app!');
